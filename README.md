@@ -15,7 +15,7 @@ flag.
 
 ## Build & Run
 
-add the following to your host file
+add the following to your host file (`/etc/hosts`)
 
 	127.0.0.1 client.local
 
