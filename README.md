@@ -5,6 +5,7 @@ This repo is a proof of concept to test out service discovery with Docker and [l
 - This Java app makes a call to another Java app via an address that it discovers
 - The second Java app connects to and uses an instance of Memcached
 
+See also, this same [test with Etcd](https://github.com/benschw/docker-service-discovery-with-etcd)
 
 ## Service Discovery With Docker
 
