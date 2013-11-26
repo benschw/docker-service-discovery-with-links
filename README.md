@@ -1,4 +1,4 @@
-## Service Discovery With Docker
+## Service Discovery With Docker and Docker links
 This repo is a proof of concept to test out service discovery with Docker and [links](http://docs.docker.io/en/latest/use/working_with_links_names/). The setup for the test, is
 
 - Provide access to a Java app running in a Docker container with a fixed name/port
