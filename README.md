@@ -34,3 +34,6 @@ Deploy the test environment
 Beat up the environment (and watch the list of random numbers grow with each request)
 
 	curl http://client.local/demo
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/benschw/docker-service-discovery-with-links/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
