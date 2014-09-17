@@ -25,7 +25,7 @@ build the project
 
 build the container image
 
-	sudo docker build -t app .
+	sudo docker build -t="benschw/service-discovery-links-example" .
 
 Deploy the test environment
 
