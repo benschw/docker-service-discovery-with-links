@@ -25,13 +25,16 @@ dependencies {
 archivesBaseName = 'discovery'
 version = '0.1'
 
-shadowJar {
+jar {
     manifest {
         attributes 'Main-Class': 'com.benschw.example.ExampleService'
         attributes 'Built-Date': new Date()
         attributes 'Built-By': System.getProperty('user.name')
         attributes 'Build-Jdk': System.getProperty('java.version')
     }
+}
+
+shadowJar {
     mergeServiceFiles {
       exclude 'META-INF/*.SF'
       exclude 'META-INF/*.DSA'
